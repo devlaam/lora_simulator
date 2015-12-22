@@ -36,11 +36,16 @@ More details will follow.
 2. Compile
 -----------
 
-Use sbt, after startup type
-> compile
-> run <arguments>
+In order to compile Lora Gateway simulator suite you need [sbt](http://www.scala-sbt.org/). Also make sure you have [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) installed.
 
-to stop the server type: exit
+Go to the Lora Gateway simulator suite folder and run sbt. After startup type:
+
+```
+compile
+run <arguments>
+```
+
+to stop the server type: `exit`
 
 You can set the akka loglevel to debug for more information.
 
